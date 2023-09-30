@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>music player</title>
+</head>
+<body>
+    <div class="container">
+        <audio id="audio" src=""> </audio>
+        <h1 class="music-player">Music Player</h1>
+        <div class="music-img">
+            <img src="" alt="music.png" class="img">
+        </div>
+        <div class="somng-name">
+            <h3 class="name-s">tumhe hume yad </h3>
+            <p class="name-artist">Arjiti shing</p>
+        </div>
+        <div class="range">
+            <h4 class="recent-duration">0:00</h4>
+            <input id="range" type="range" min="1" max="100"
+            value="0" class="range_slider">
+            <h4 class="total-duration">0:00</h4>
+        </div>
+        <div class="c-btn">
+            <div class="icons" id="preview"><i class="fa-solid fa-backward"></i></div>
+            <div class="icons play" id="play" > <i class="fa-solid fa-play"  id="playpause"></i></div>
+            <div class="icons" id="next"><i class="fa-solid fa-forward"></i></div>
+        </div>
+    </div>
+ 
+  
+
+
+    <script src="music.js"></script>
+    <script src="https://kit.fontawesome.com/9d6b6ec0c2.js" crossorigin="anonymous"></script>
+</body>
+</html>

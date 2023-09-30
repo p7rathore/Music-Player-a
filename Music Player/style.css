@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.container{
+    height: 700px;
+    width: 400px;
+    background-color: rgb(3, 14, 50);
+    margin-top: 20px;
+    margin-left: 550px;
+    border-radius: 10px;
+    position: absolute;
+}
+.music-player{
+    text-align: center;
+    margin-top: 30px;
+}
+.music-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    position: relative;
+    top: 50px;
+    left: 100px;
+    overflow: hidden;
+    background-color: white;
+}
+.animation{
+    animation: animName 2s linear infinite;
+}
+
+@keyframes animName {
+    0%{
+       transform: rotate(0deg);
+      }
+   100%{
+       transform: rotate(360deg);
+      }
+   }
+   
+
+.img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.somng-name{
+    margin-top:100px;
+}
+.name-s,.name-artist{
+    text-align: center;
+}
+.range{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.range_slider{
+    width: 200px;
+}
+.c-btn{
+    height: 60px;
+    width: 390px ;
+    margin-left: 5px;
+    margin-top: 80px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.icons{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.icons:hover{
+    background-color: red;
+    transition: 1s;
+}
+.fa-solid{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.fa-backward{
+    margin-left: 12px;
+}
+.fa-play,.fa-pause{
+    margin-left: 18px;
+}
+.fa-forward{
+    margin-left: 15px;
+}
+#play:hover{
+    background-color: blue;
+}
